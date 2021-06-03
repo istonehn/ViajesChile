@@ -7,3 +7,27 @@ q.parentNode.insertBefore(js,q) }
 })();
 
 //Smoothscroll
+
+$(document).ready(function(){
+    // Agregamos el efecto smoothScroll a los links "a"
+    $("a").on('click', function(event) {
+  
+      // El this.hash debe de tener un valor antes de anular el comportamiento.
+      if (this.hash !== "") {
+        // Con preventDefault evitamos el comportamiento predeterminado del "a"(anclaje)
+        event.preventDefault();
+  
+        // Variable hash para this.hash, es el valor.
+        var hash = this.hash;
+  
+        // El método de jquery animate sirve para agregar el desplazamiento.
+        // El número 800 determina el tiempo en milisegundos para desplazarse.
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+
+          window.location.hash = hash; //#
+        });
+      }
+    });
+  });
