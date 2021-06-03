@@ -1,0 +1,104 @@
+/*NavBar*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000;
+}
+
+.navbar {
+    background-color: #249fa9;
+    font-family: 'Open Sans';
+}
+
+.navbar-brand {
+    font-size: 25px;
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+
+/*Logo NavBar ubicación*/
+
+.img-responsive {
+    margin-right: 5px;
+}
+
+/*main Carousel*/
+
+#CarouselControl {
+    height: 100%;
+    top: 0;
+    padding: 0px 0px;
+    width: 100%;
+
+}
+
+/* texto*/
+
+#texto {
+margin-top: 30px;
+}
+
+#texto hr, #destacados hr, #contacto hr {
+   height: 2px;
+   background-color: #249fa9 !important;
+}
+
+.icono-fas {
+    vertical-align: top;
+    border: 0;
+    background-color: #249fa9; 
+    text-align: center;
+}
+
+
+/*Destacados*/
+
+.card {
+    background-color: #249fa9;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 40%;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: #249fa9;
+
+}
+
+.iconos-finales {
+    text-align: right!important;
+}
+
+
+@media (max-width: 576px){
+    #Hero-section {
+        height: 50px;
+    }
+
+    .row {
+        display: flex;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+
+    .logo-final {
+        display: flex;
+        margin-left: 85px;
+        margin-bottom: 10px;
+    }
+
+    .iconos-finales {
+        display: flex;
+        margin-left: 80px;
+        margin-bottom: 25px;
+    }
+}
+

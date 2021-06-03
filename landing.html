@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Chile</title>
+    <!--Logo en título-->
+    <link rel="shortcut icon" href="assets/img/viajes.svg">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Oswald:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+        
+        <!-- Barra de navegación con logo y links con smooth scroll -->
+       <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+              <img src="assets/img/viajes.svg" alt="Viajes" width="32" height="32" viewBox="0 0 20 20" class="img-responsive">
+                <a class="navbar-brand font-weight-bold" href="#">Viajes Chile</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#CarouselControl">Inicio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#texto">Quienes Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#destacados">Destacados</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                  </li>
+              </div>
+            </div>
+          </nav>
+          </header>
+
+        <!--Carousel con imágenes destacadas  -->
+            
+              <main>
+                <div id="CarouselControl" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner container-fluid px-0">
+                      <div class="carousel-item active" data-interval="8000">
+                        <img src="assets/img/carousel1.jpg" class="d-block w-100 h-50" alt="Alpacas">
+                      </div>
+                      <div class="carousel-item" data-interval="8000">
+                        <img src="assets/img/carousel2.jpg" class="d-block w-100 h-50" alt="Moais-Atardecer">
+                      </div>
+                      <div class="carousel-item"data-interval="8000">
+                        <img src="assets/img/carousel3.jpg" class="d-block w-100 h-50" alt="Pingüinos">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#CarouselControl" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#CarouselControl" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </main>    
+
+        <!-- Una sección de presentación, utilizando favicons y 3 párrafos (debe desaparecer en
+            tamaños pequeños de pantalla). -->
+          
+            <section id="texto" class="pt-5 d-none d-sm-block container text-center text-white" id="quienes">
+              <div>
+                <h4 class="text-center pt-3">¿Quiénes somos?</h4>
+                <hr class="bg-light">
+              </div>
+              
+              <div class="row container text-justify mt-5 ml-2">
+                    
+                <div class="col-sm-4">
+                  <div class="icono-fas">
+                    <i class="fas fa-plane fa-2x py-1"></i>
+                    </div>
+                  <p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                  voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+                  anim id est laborum.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col-sm-4">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                  voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+                  anim id est laborum.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <div class="icono-fas">
+                  <i class="fas fa-mountain fa-2x py-1"></i>
+                </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="icono-fas">
+                  <i class="fas fa-route fa-2x py-1"></i>
+                </div>
+                  <p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                  voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+                  anim id est laborum.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+            </section>
+
+        <!-- Una sección de destacados, que muestre 4 cards (tarjetas) con la imagen e información asociada. -->
+
+
+            <section id="destacados" class="pt-5 d-inline d-sm-block container text-center text-white" id="quienes">
+              <div>
+                <h4 class="text-center pt-3">Destacados</h4>
+                <hr class="bg-light">
+              </div>
+              <div class="row col-sm-12 my-auto px-2">
+              <div class="card-deck col-8 col-md-12 py-4 ml-3 text-left">
+                <div class="card">
+                  <img src="assets/img/card1.jpg" class="card-img-top" alt="Paisaje">
+                  <div class="card-body">
+                    <h5 class="card-title">Lorem imspu dolor sit amet</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="assets/img/card2.jpg" class="card-img-top" alt="Paisaje-2">
+                  <div class="card-body">
+                    <h5 class="card-title">Lorem imspu dolor sit amet</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="assets/img/card3.jpg" class="card-img-top" alt="Paisaje-3">
+                  <div class="card-body">
+                    <h5 class="card-title">Lorem imspu dolor sit amet</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+             
+              <div class="card">
+                <img src="assets/img/card4.jpg" class="card-img-top" alt="Paisaje-4">
+                <div class="card-body">
+                  <h5 class="card-title">Lorem imspu dolor sit amet</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div> 
+            </div>
+          </div>
+          </div>
+          </section>
+        <!-- Una sección de formulario de contacto con Typeform. -->
+
+        <section id="contacto" class="pt-5 container text-center text-light">
+          <div>
+            <h4 class="text-center pt-3">Contacto</h4>
+            <hr class="bg-light">
+          </div>
+          <div class="typeform-widget container my-4" data-url="https://form.typeform.com/to/jzTngdGs?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> 
+        </section>
+
+        <!-- Una sección footer con links a las redes sociales. -->
+
+        <footer class="footer text-left text-white py-3">
+          <div class="row container m-auto"> 
+                <div class="col-12 col-sm-6">
+                  <h2 class="logo-final font-weight-bold">Viajes Chile</h2>
+                </div>
+              <div class="iconos-finales col-12 col-sm-6 mt-4 mt-sm-0">
+          <a class="fab fa-github fa-3x text-white" href="https://www.github.com/" target="_blank"></a>
+          <a class="fab fa-facebook fa-3x text-white" href="https://www.facebook.com" target="_blank"></a>
+          <a class="fab fa-twitter fa-3x text-white" href="https://www.twitter.com" target="_blank"></a>
+          <a class="fab fa-instagram fa-3x text-white" href="https://www.instagram.com" target="_blank"></a>
+            </div> 
+          </div>
+      </footer>
+
+    <!--Js-->
+    <script src="assets/js/script.js"></script>
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></scriptsrc=src=src=src=src=src=src=src=src=src=src=src=src=src=></script>
+    <!--Popper-->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<!-- poner un tooltip, el smoothscroll, colocar los links y subir al gitHub">-->
