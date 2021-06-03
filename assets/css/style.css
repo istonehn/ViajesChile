@@ -24,6 +24,11 @@ body {
 
 /*main Carousel*/
 
+.carousel-inner {
+    height: 680px;
+   
+}
+
 #CarouselControl {
     height: 100%;
     top: 0;
