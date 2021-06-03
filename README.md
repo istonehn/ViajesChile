@@ -1,8 +1,9 @@
 # Requerimientos
-* 1. Construir la estructura de la página usando HTML: (2 Puntos) Listo.
+
+* 1. Construir la estructura de la página usando HTML: (2 Puntos) 
     ● Construir la estructura de un archivo HTML, utilizando correctamente las
-    etiquetas semánticas para definir las distintas secciones de la página. Listo.
-    ● Realizar correctamente la carga de archivos y organización del directorio. Listo.
+    etiquetas semánticas para definir las distintas secciones de la página. 
+    ● Realizar correctamente la carga de archivos y organización del directorio. .
 
 * 2. Componer visualmente el documento HTML con propiedades CSS: (2 Puntos)
     ● Aplicar la sintaxis de CSS utilizando selectores y clases de manera correcta,
@@ -12,10 +13,10 @@
     ● El código debe estar ordenado, documentado e indentado.
 
 * 3. Emplear elementos de Bootstrap en el documento HTML: (2 Puntos)
-    ● Realizar una correcta integración del CDN de Bootstrap. Listo.
+    ● Realizar una correcta integración del CDN de Bootstrap. 
     ● Emplear al menos 3 componentes de Bootstrap (excluyendo aquellos con
-    JavaScript), haciendo uso de la grilla y de clases utilitarias. Listo.
-    ● Documentar la versión de los recursos utilizados. Listo.
+    JavaScript), haciendo uso de la grilla y de clases utilitarias. 
+    ● Documentar la versión de los recursos utilizados. 
     
 * 4. Agregar componentes que utilicen JavaScript: (2 Puntos)
     ● Utilizar adecuadamente la sintaxis de JavaScript.
